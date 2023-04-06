@@ -11,36 +11,42 @@
       </div>
     </div>
     <div class="container">
-    <div class="aboutMe">
-      <h2>Biografija</h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, unde earum soluta facilis
-        veniam maxime ad inventore itaque provident reprehenderit nesciunt consectetur perferendis
-        minus quidem atque assumenda, repudiandae modi eum!
-      </p>
-      <h3>Osnovne informacije:</h3>
-      <div class="textContainer">
-        <div class="textBox">
-          <p>Datum rođenja: 17.04.1982</p>
-          <address>
-            E -mail <a href="mailto:nemanja.stojanovich@gmail.com">Nemanja Stojanović</a>.<br />
-            Adresa: Španskih Boraca 46<br />
-          </address>
-          <p><a href="tel:+4733378901">+381 63 780 901</a></p>
+      <div class="avatarPicture">
+        <img src="../assets/images/avatar/depositphotos_81611556-stock-illustration-web-developer-design.jpg" alt="" />
+      </div>
+      <div class="aboutMe">
+        <h2>Biografija</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, unde earum soluta facilis
+          veniam maxime ad inventore itaque provident reprehenderit nesciunt consectetur perferendis
+          minus quidem atque assumenda, repudiandae modi eum!
+        </p>
+        <h3>Osnovne informacije:</h3>
+        <div class="textContainer">
+          <div class="textBox">
+            <p>Datum rođenja: 17.04.1982</p>
+            <address>
+              E -mail: <a href="mailto:nemanja.stojanovich@gmail.com">Nemanja Stojanović</a><br />
+              Adresa: Španskih Boraca 46<br />
+            </address>
+            <p>Kontaskt tel:<a href="tel:+4733378901">+381 63 780 901</a></p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
   </main>
 </template>
 
 <style lang="scss" scoped>
 div.hero-text {
   width: 80%;
-    margin: 0 auto;
+  margin: 0 auto;
   h1 {
-    font-size: 20px;
-    line-height: 100px;
+    font-size: 40px;
+    line-height: 150px;
+  }
+  h2 {
+    font-size: 30px;
   }
   button {
     margin: 100px;
@@ -65,15 +71,39 @@ div.hero-image {
 }
 main {
   background-color: #87acd4;
+
   .container {
     width: 80%;
     margin: 0 auto;
-
-  }
-  .aboutMe {
-
-    padding: 100px;
-  }
+    display: flex;
+    align-items: center;
+    .avatarPicture {
+      display: flex;
+      align-items: center;
+      justify-content: right;
+      img{
+        width: 40%;
+      }
+    }
+    .aboutMe {
+      padding: 50px;
+      h2 {
+        font-size: 30px;
+        padding: 5px;
+      }
+      p {
+        padding: 5px 0px;
+      }
+      h3 {
+        font-size: 25px;
+        padding: 5px;
+      }
+      address {
+        padding: 5px 0px;
+      }
+    }
 }
-</style>
+}
 
+
+</style>

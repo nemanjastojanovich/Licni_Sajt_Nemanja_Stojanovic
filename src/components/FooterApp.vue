@@ -17,7 +17,6 @@ footer {
     background-color: #3772b1;
     padding: 10px;
     margin: 40px auto 0;
-    position: fixed;
     bottom: 0;
     width: 100%;
     .social-links {
