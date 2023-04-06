@@ -1,5 +1,6 @@
 <script setup>
 import HomeSlider from "@/components/HomeSlider.vue";
+import TextAnim from "@/components/TextAnim.vue";
 </script>
 <template>
   <main>
@@ -9,8 +10,10 @@ import HomeSlider from "@/components/HomeSlider.vue";
           Zdravo, Ja sam <br />
           <strong>Nemanja Stojanović</strong>
         </h1>
-        <h2>Ja sam <span>Frontend developer</span><span>UI/UX Designer</span></h2>
+        <h2><TextAnim /></h2>
         <button>Kontaktirajte me</button>
+
+        
       </div>
     </div>
     <div class="container">

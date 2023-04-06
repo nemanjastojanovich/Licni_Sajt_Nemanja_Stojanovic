@@ -3,7 +3,7 @@
     <button id="left-btn" @click="toLeft()"><i class="arrow"></i></button>
 
     <div class="slider-images">
-      <img src="../assets/images/slider/js.png" alt="Javascript" title="JS"/>
+      <img src="../assets/images/slider/js.png" alt="Javascript" title="JS" />
       <img src="../assets/images/slider/vue.png" alt="Vue" title="Vue" />
       <img src="../assets/images/slider/HTML5.png" alt="HTML5" title="HTML" />
       <img src="../assets/images/slider/css.png" alt="CSS" title="CSS" />
@@ -62,7 +62,6 @@ onMounted(() => {
   margin: 0 auto;
   margin-top: 20px;
   position: relative;
- ;
   opacity: 0.83;
 
   .slider-images {
