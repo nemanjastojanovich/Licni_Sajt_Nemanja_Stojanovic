@@ -3,8 +3,9 @@
     <button id="left-btn" @click="toLeft()"><i class="arrow"></i></button>
 
     <div class="slider-images">
-      <img src="../assets/images/slider/tumblr_lsus01g1ik1qies3uo1_400.png" alt="Javascript" title="JS" />
-      <img src="../assets/images/slider/logo-2582748_960_720.png" alt="HTML5" title="HTML" />
+      <img src="../assets/images/slider/js.png" alt="Javascript" title="JS"/>
+      <img src="../assets/images/slider/vue.png" alt="Vue" title="Vue" />
+      <img src="../assets/images/slider/HTML5.png" alt="HTML5" title="HTML" />
       <img src="../assets/images/slider/css.png" alt="CSS" title="CSS" />
     </div>
 
