@@ -12,8 +12,6 @@ import TextAnim from "@/components/TextAnim.vue";
         </h1>
         <h2><TextAnim /></h2>
         <button>Kontaktirajte me</button>
-
-        
       </div>
     </div>
     <div class="container">
@@ -56,7 +54,17 @@ div.hero-text {
     font-size: 30px;
   }
   button {
-    margin: 100px;
+    margin: 100px 0;
+    background-color: #008CBA; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
   }
 }
 div.hero-image {
@@ -112,4 +120,10 @@ main {
     }
 }
 }
+
+button:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
 </style>

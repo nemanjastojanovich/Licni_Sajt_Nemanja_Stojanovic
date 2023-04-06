@@ -15,26 +15,31 @@
 footer {
     text-align: center;
     background-color: #3772b1;
-    padding: 10px;
+    padding: 10px 550px;
     margin: 0 auto 0;
     bottom: 0;
     width: 100%;
+    font-size: 20px;
+    color: white;
     .social-links {
       a {
-        margin: 5px;
+        margin: 10px;
         color: rgb(29, 29, 141);
+        i{
+          transition: all 0.1s ease-in-out;
+        }
       }
     }
   }
   footer h7 {
-    color: rgb(29, 29, 141);
+    color: white;
   }
   footer h7::after {
     content: "";
     width: 55px;
     height: 1px;
     display: block;
-    background-color: rgb(29, 29, 141);;
+    background-color: white;
     margin: 0 auto;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -42,8 +47,13 @@ footer {
   footer .footerCopyright {
     text-align: center;
     padding: 15px 0;
-    border-top: 1px solid rgb(29, 29, 141);;
+    border-top: 1px solid white;
     margin-top: 10px;
-    color: rgb(0, 0, 128);
+    color: white;
   } 
+
+ .social-links a i:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+  }
 </style>
