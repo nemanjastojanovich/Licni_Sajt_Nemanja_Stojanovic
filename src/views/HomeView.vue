@@ -7,7 +7,7 @@ import TextAnim from "@/components/TextAnim.vue";
     <div class="hero-image">
       <div class="hero-text">
         <h1>
-          Zdravo, Ja sam <br />
+          Zdravo, Ja sam 
           <strong>Nemanja Stojanović</strong>
         </h1>
         <h2><TextAnim /></h2>
@@ -46,15 +46,16 @@ import TextAnim from "@/components/TextAnim.vue";
 div.hero-text {
   width: 80%;
   margin: 0 auto;
+  padding: 150px 0;
   h1 {
     font-size: 40px;
-    line-height: 150px;
+    margin-bottom: 100px; 
   }
   h2 {
     font-size: 30px;
   }
   button {
-    margin: 100px 0;
+    margin: 50px 0;
     background-color: #008CBA; 
     border: none;
     color: white;
@@ -79,10 +80,8 @@ div.hero-image {
   background-size: cover;
   background-position: center center;
   opacity: 10;
-
   z-index: -1;
   width: 100%;
-  padding: 100px;
 }
 main {
   background-color: #87acd4;

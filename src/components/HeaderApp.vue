@@ -41,7 +41,7 @@ header {
   position: fixed;
   width: 100%;
   background-color: #3772b1;
-  padding: 10px;
+  padding: 15px 0;
   -webkit-box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.41);
   -moz-box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.41);
   box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.41);
