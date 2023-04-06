@@ -1,3 +1,6 @@
+<script setup>
+import HomeSlider from "@/components/HomeSlider.vue";
+</script>
 <template>
   <main>
     <div class="hero-image">
@@ -34,6 +37,7 @@
         </div>
       </div>
     </div>
+    <HomeSlider />
   </main>
 </template>
 
@@ -71,6 +75,7 @@ div.hero-image {
 }
 main {
   background-color: #87acd4;
+  padding: 0 0 100px 0;
 
   .container {
     width: 80%;
@@ -104,6 +109,4 @@ main {
     }
 }
 }
-
-
 </style>
