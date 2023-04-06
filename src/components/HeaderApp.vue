@@ -3,7 +3,7 @@ export default {
   data() {
     return {
       options: [
-        { label: 'SignIn form', value: 'option1' },
+        { label: 'Projekti', value: 'option1' },
         { label: 'Vremenska prognoza', value: 'option3' },
         { label: 'Todo list', value: 'option3' },
       ],
