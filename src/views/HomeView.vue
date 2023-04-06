@@ -11,7 +11,7 @@ import TextAnim from "@/components/TextAnim.vue";
           <strong>Nemanja Stojanović</strong>
         </h1>
         <h2><TextAnim /></h2>
-        <button>Kontaktirajte me</button>
+        <button>Preuzmite CV</button>
       </div>
     </div>
     <div class="container">

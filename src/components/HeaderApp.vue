@@ -53,6 +53,8 @@ header {
     justify-content: space-between;
     align-items: center;
     gap: 15x;
+    width: 80%;
+    margin: 0 auto;
     
     img {
       transition: all 0.1s ease-in-out;
