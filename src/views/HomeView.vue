@@ -33,7 +33,7 @@ import TextAnim from "@/components/TextAnim.vue";
               E -mail: <a href="mailto:nemanja.stojanovich@gmail.com">Nemanja Stojanović</a><br />
               Adresa: Španskih Boraca 46<br />
             </address>
-            <p>Kontaskt tel:<a href="tel:+4733378901">+381 63 780 901</a></p>
+            <p>Kontakt tel: <a href="tel:+381 63 780 901">+381 63 780 901</a></p>
           </div>
         </div>
       </div>

@@ -1,16 +1,6 @@
-<script>
-export default {
-  data() {
-    return {
-      options: [
-        { label: 'Projekti', value: 'option1' },
-        { label: 'Vremenska prognoza', value: 'option3' },
-        { label: 'Todo list', value: 'option3' }
-      ],
-      selectedOption: 'option1'
-    }
-  }
-}
+<script setup>
+import { RouterLink } from 'vue-router';
+
 </script>
 
 <template>
@@ -19,18 +9,16 @@ export default {
       <a href="#" target="_blank"><img src="../assets/logo/favicon.jpg" class="profile-image" alt="Logo Nemanja Stojanović" /></a>
       <ul>
         <li>
-          <a aria-current="page" href="#">Kontakt</a>
+          <RouterLink to="/">Početna</RouterLink>
         </li>
         <li>
-          <a href="#">Obrazovanje i edukacija</a>
+          <RouterLink to="/Kontakt">Kontakt</RouterLink>
         </li>
         <li>
-          <div class="dropdown">
-            <select id="dropdown" v-model="selectedOption">
-              <option value="">Projekti</option>
-              <option v-for="option in options" :value="option.value">{{ option.label }}</option>
-            </select>
-          </div>
+          <RouterLink to="/Obrazovanje i edukacija">Obrazovanje i edukacija</RouterLink>
+        </li>
+        <li>
+          <RouterLink to="/Projekti">Projekti</RouterLink>
         </li>
       </ul>
     </nav>
@@ -90,18 +78,4 @@ img.profile-img {
   height: 20px;
 }
 
-.dropdown {
-  position: relative;
-  display: inline-block;
-  select {
-    background-color: #3772b1;
-    border: none;
-    color: white;
-    font-size: 20px;
-  }
-}
-.dropdown:hover {
-  display: flex;
-  color: blue;
-}
 </style>

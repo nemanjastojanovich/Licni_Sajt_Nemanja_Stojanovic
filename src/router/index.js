@@ -9,6 +9,22 @@ const router = createRouter({
       name: 'Početna',
       component: HomeView
     },
+    {
+      path: '/Kontakt',
+      name: 'Kontakt',
+      component: () => import("../views/ContactView.vue")
+    },
+    {
+      path: '/Obrazovanje i edukacija',
+      name: 'Obrazovanje i edukacija',
+      component: () => import("../views/EducationView.vue")
+    },
+    {
+      path: '/Projekti',
+      name: 'Projekti',
+      component: () => import("../views/ProjectsView.vue")
+    },
+    
   ]
 })
 
