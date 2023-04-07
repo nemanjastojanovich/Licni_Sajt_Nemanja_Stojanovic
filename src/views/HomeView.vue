@@ -53,7 +53,7 @@ import TextAnim from '@/components/TextAnim.vue'
 div.hero-text {
   width: 80%;
   margin: 0 auto;
-  padding: 150px 0;
+  padding: 100px 0;
   h1 {
     font-size: 40px;
     margin-bottom: 100px;
@@ -80,6 +80,7 @@ div.hero-image {
   width: 80%;
   margin: 0 auto;
   align-items: center;
+ 
   img {
     height: 240px;
     width: 240px;
@@ -88,6 +89,7 @@ div.hero-image {
 }
 main {
   padding: 0 0 100px 0;
+  
   .wraper {
     width: 100%;
     background-color: #87acd4;
@@ -97,6 +99,7 @@ main {
       margin: 0 auto;
       display: flex;
       align-items: center;
+      
       .avatarPicture {
         justify-content: space-between;
         img {
@@ -129,4 +132,25 @@ button:hover {
   cursor: pointer;
   transform: scale(1.05);
 }
+
+@media (max-width: 1000px) {
+  main {
+    .hero-image {
+      flex-direction: column;
+      padding-bottom: 50px;
+    }
+  }
+  .wraper {
+    .container {
+      flex-direction: column;
+      .avatarPicture {
+        margin-top: 50px;
+      }
+    }
+  }
+  
+}
+
+
+
 </style>
