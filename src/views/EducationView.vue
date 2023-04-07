@@ -50,7 +50,7 @@
     width: 80%;
     h1 {
         text-align: center;
-        padding-bottom: 50px;
+        padding-bottom: 30px;
         color: rgb(29, 29, 141);
         letter-spacing: 2px;
         font-size: 30px;
@@ -64,7 +64,6 @@
         line-height: 50px;
     }
     ul {
-       
         li {
             color: rgb(29, 29, 141);
             letter-spacing: 2px;
